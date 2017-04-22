@@ -1,6 +1,7 @@
 var friendArray = [{
     "name": "Ahmed",
-    "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "friendNeedness": "1",
+    "photo": "https://i1.wp.com/perform.ink/wp-content/uploads/2016/09/Kaiser-Ahmed-Headshot-e1474429612793.jpg",
     "scores": [
         "5",
         "1",
@@ -14,23 +15,9 @@ var friendArray = [{
         "1"
     ]
 }, {
-    "name": "Jacob Deming",
-    "photo": "https://pbs.twimg.com/profile_images/691785039043022849/oWsy8LNR.jpg",
-    "scores": [
-        "4",
-        "2",
-        "5",
-        "1",
-        "3",
-        "2",
-        "2",
-        "1",
-        "3",
-        "2"
-    ]
-}, {
     "name": "Jeremiah Scanlon",
-    "photo": "https://avatars2.githubusercontent.com/u/8504998?v=3&s=460",
+    "friendNeedness": "2",
+    "photo": "https://static1.squarespace.com/static/5166f76be4b0acbb38a3fe03/t/529428d0e4b09c03ba02069f/1385441492279/JB-headshot.png",
     "scores": [
         "5",
         "2",
@@ -45,7 +32,8 @@ var friendArray = [{
     ]
 }, {
     "name": "Louis T. Delia",
-    "photo": "https://pbs.twimg.com/profile_images/639214960049000449/lNCRC-ub.jpg",
+    "friendNeedness": "3",
+    "photo": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRPKaeYym5jffNtL3Aboe46eRRj2GWX-wKcnviozXsTJXeNG1MBlw",
     "scores": [
         "3",
         "3",
@@ -60,7 +48,8 @@ var friendArray = [{
     ]
 }, {
     "name": "Lou Ritter",
-    "photo": "https://m.facebook.com/photo.php?fbid=10208500699025296&id=1542229019&set=a.1549418665704.77596.1542229019&source=11",
+    "friendNeedness": "4",
+    "photo": "http://ceramirus.com/wp-content/uploads/Lou-Graham-Headshot.jpg",
     "scores": [
         "4",
         "3",
@@ -75,7 +64,8 @@ var friendArray = [{
     ]
 }, {
     "name": "Jordan Biason",
-    "photo": "https://scontent-ord1-1.xx.fbcdn.net/v/t1.0-9/12741971_10205764267089153_4212986785721953092_n.jpg?oh=4e18265f7d380167223a97fbd7eba278&oe=57B78445",
+    "friendNeedness": "5",
+    "photo": "http://leangreendad.com/wp-content/uploads/2015/06/MJheadshot.jpg",
     "scores": [
         "4",
         "4",
@@ -89,8 +79,9 @@ var friendArray = [{
         "5"
     ]
 }, {
-    "name": "Karth",
-    "photo": "karth.jpg",
+    "name": "Kristina",
+    "friendNeedness": "6",
+    "photo": "https://www.jordanmatter.com/images/Tara_Westwood.jpg",
     "scores": [
         "4",
         "2",
@@ -103,6 +94,22 @@ var friendArray = [{
         "2",
         "5"
     ]
+}, {
+    "name": "Jacob Deming",
+    "friendNeedness": "7",
+    "photo": "https://pbs.twimg.com/profile_images/691785039043022849/oWsy8LNR.jpg",
+    "scores": [
+        "4",
+        "2",
+        "5",
+        "1",
+        "3",
+        "2",
+        "2",
+        "1",
+        "3",
+        "2"
+    ]    
 }];
 
 module.exports = friendArray;
